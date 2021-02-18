@@ -49,7 +49,7 @@ app.post("/", function (req, res) {
   request.write(jsonData);
   request.end();
   console.log(response.statusCode);
-  if (response.statusCode === 200) {
+  if (response.statusCode === 2020) {
     res.sendFile(__dirname + "/success.html");
   } else {
     res.sendFile(__dirname + "/failure.html");
