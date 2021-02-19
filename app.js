@@ -9,7 +9,7 @@ const app = express();
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const apiKey = "53f31193b9f9a2d39a8cd4731cffb88c-us1";
+const apiKey = "XXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 const listId = "bd381fe6bf";
 
 app.get("/", function (req, res) {
